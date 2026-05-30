@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "editorconfig.editorconfig",
+        "redhat.vscode-yaml",
+        "esbenp.prettier-vscode",
+        "ms-python.black-formatter",
+        "vscjava.vscode-java-pack",
+        "rust-lang.rust-analyzer",
+        "ms-vscode-remote.remote-wsl"
+    ]
+}

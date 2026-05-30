@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "terminal.integrated.defaultProfile.windows": "Ubuntu",
+  "terminal.integrated.profiles.windows": {
+    "Ubuntu": {
+      "path": "wsl.exe",
+      "args": []
+    }
+  },
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[rust]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  }
+}
