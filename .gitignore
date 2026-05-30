@@ -1,0 +1,2 @@
+# Ignore local generated binaries and release artifacts
+bin/
