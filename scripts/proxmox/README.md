@@ -51,13 +51,14 @@ What it does:
 
 - sets strict shell options for the remote session
 - updates packages on Debian/Ubuntu or RHEL/CentOS systems
-- installs `qemu-guest-agent`, `cloud-init`, `curl`, and `sudo`
+- installs `qemu-guest-agent`
 - enables the `qemu-guest-agent` service
+- installs `docker`
 
 Example:
 
 ```bash
-SSH_KEY=~/.ssh/id_rsa bash scripts/proxmox/bootstrap-vm.sh 192.168.1.100 ubuntu
+SSH_KEY=~/.ssh/id_rsa bash scripts/proxmox/bootstrap-vm.sh ubuntu-server ubuntu
 ```
 
 ## Notes

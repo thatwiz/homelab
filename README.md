@@ -26,13 +26,13 @@ This repository contains bootstrap scripts and tools for building one-off and re
 ### Create a VM
 
 ```bash
-bash scripts/proxmox/create-vm.sh 110 myvm local-lvm local:iso/ubuntu-24.04-server.iso
+bash scripts/proxmox/create-vm.sh
 ```
 
 ### Bootstrap a VM after install
 
 ```bash
-bash scripts/proxmox/bootstrap-vm.sh 192.168.1.50
+bash scripts/proxmox/bootstrap-vm.sh ubuntu-server
 ```
 
 ## Notes
